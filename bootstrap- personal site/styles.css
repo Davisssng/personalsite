@@ -1,0 +1,155 @@
+body{
+    background-color: #f4f6fc;
+    
+}
+
+.sunrise{
+    width: 100%;
+}
+
+
+.headline{
+    position: relative;
+}
+
+.overlay-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform:translate(50%, -50%);
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 70px;
+    color: #f4f6fc;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-family: 'Fraunces', serif;
+    font-weight: 100;
+    font-size: 32px;
+    margin-bottom: 10px;
+    margin-top: 0;
+
+
+
+}
+
+p{
+    color: black;
+    font-family: 'Fraunces', serif;
+    font-weight: 100;
+    font-size: 24px;
+}   
+
+h3{
+    font-family: 'Fraunces', serif;
+    font-size: 21px;
+    font-weight: 100;
+    margin-top: 0;
+    color: #c4dfdf;
+}
+
+hr{ 
+    border: none;
+    border-top: 1rem dotted pink;
+    width: 5%;
+    margin:auto;
+    
+}
+
+.Professional{
+    display: grid;
+    grid-template: auto auto auto  / repeat(3, 1fr) ;
+    padding-top: 10rem;
+}
+
+
+.intro{
+    text-align: center;
+    padding-top: 1rem;
+    background-color: C4DFDF;
+}
+
+.aboutme{
+    padding-top: 10rem;
+    text-align: center;
+    padding-bottom: 10rem;
+    
+}
+
+.aboutmeheading{
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    line-height: 2  ;
+    font-size: 40px;
+}
+
+
+
+.passionlist{
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.mypassions{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+
+
+.hobby{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+
+.hobbydesc{
+    text-align: left;
+    width: 40%;
+}
+
+.contactme{
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.contact{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+
+}
+
+.summary{
+    width: 30%;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.btn{
+    background-color: pink;
+    border: none;
+    padding: 1rem ;
+    margin-bottom: 10rem;
+}
+
+.footer{
+    width: 100%;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+
+}
+
